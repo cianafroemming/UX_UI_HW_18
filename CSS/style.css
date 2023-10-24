@@ -47,48 +47,62 @@ body {
     text-align: center;
     margin-top: 175px;
 }
-<!--  My UX Skills section coded using CSS flex --> 
-/* Add this code to your style.css file */
+
 .flexContainer {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
-    justify-content: right;/* Center the items horizontally */
-    padding: 20px; /* Add padding to the flex container */
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 20px;
+}
+
+.creativethinking {
+    width: 250px;
+    height: auto;
 }
 
 .recipegenie {
     justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.localeyes {
+    justify-content: center;
+    width: 400px;
+    height: auto;
 }
 
 .flexContainer > div {
-    flex: 0 0 calc(33% - 40px); /* Set the width to 33% with padding */
-    box-sizing: border-box; /* Include padding and border in the width */
-    padding: 20px; /* Add padding to the <div> for spacing */
-    text-align: left; /* Center the contents horizontally within each <div> */
+    flex: 0 0 calc(33% - 40px);
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
     justify-content: center;
 }
 
-/* Add this code to your style.css file */
+
+<--!My Work Section-->
+
 .myWork {
-    text-align: center;
+    text-align: center; 
 }
 
 .workGrid {
-    text-align: left;
+    text-align: center; 
     padding: 20px;
 }
 
 .workGrid > .recipegenie,
 .workGrid > .localeyes {
-    display: left;
-    margin: 0 40px;
+    display: center; 
+    margin: 0 auto; 
     padding: 20px;
 }
 
 .workGrid > .recipegenie > img,
 .workGrid > .localeyes > img {
-    display: left;
-    margin-left: 20px; /* Add more margin to separate the image from the button */
+    display: block;
+    margin-left: 20px;
 }
 
 .workGrid > .recipegenie > div,
@@ -98,7 +112,7 @@ body {
 
 .workGrid > .recipegeniebutton,
 .workGrid > .localeyesbutton {
-    margin-top: 20px; /* Add margin to the top of the button to separate it from the text */
+    margin-top: 20px;
 }
 
 .h4 {
@@ -106,17 +120,18 @@ body {
 }
 
 
-/* Add this code to your style.css file */
+
+
 .recipegeniebutton,
 .localeyesbutton {
     padding: 10px;
-    background-color: #80A0C8; /* Adjust the color as needed */
-    color: #FFFDF8; /* Adjust the text color as needed */
-    border: none; /* Remove the button border */
-    cursor: pointer; /* Add a pointer cursor on hover */
+    background-color: #80A0C8; 
+    color: #FFFDF8; 
+    border: none; 
+    cursor: pointer; 
     margin: 20px;
-    margin: 0 auto; /* Center the buttons horizontally */
-    display: block; /* Ensure the buttons are block-level elements */
+    margin: 0 auto; 
+    display: block; 
 }
 
 .recipegeniebutton:hover,
