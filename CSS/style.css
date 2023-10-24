@@ -1,0 +1,144 @@
+body {
+    background-color: #FFFDF8;
+    margin: 40px;
+    color: #36405F; 
+    font-family: 'Urbanist', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 164px;
+    background-color: #FFFDF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 144px;
+    height: 144px;
+    margin-right: 40px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #36405F;
+    text-decoration: none;
+    margin-left: 30px; 
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    color: #A98D4F; 
+}
+
+.mySkills {
+    text-align: center;
+    margin-top: 175px;
+}
+<!--  My UX Skills section coded using CSS flex --> 
+/* Add this code to your style.css file */
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    justify-content: right;/* Center the items horizontally */
+    padding: 20px; /* Add padding to the flex container */
+}
+
+.recipegenie {
+    justify-content: center;
+}
+
+.flexContainer > div {
+    flex: 0 0 calc(33% - 40px); /* Set the width to 33% with padding */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 20px; /* Add padding to the <div> for spacing */
+    text-align: left; /* Center the contents horizontally within each <div> */
+    justify-content: center;
+}
+
+/* Add this code to your style.css file */
+.myWork {
+    text-align: center;
+}
+
+.workGrid {
+    text-align: left;
+    padding: 20px;
+}
+
+.workGrid > .recipegenie,
+.workGrid > .localeyes {
+    display: left;
+    margin: 0 40px;
+    padding: 20px;
+}
+
+.workGrid > .recipegenie > img,
+.workGrid > .localeyes > img {
+    display: left;
+    margin-left: 20px; /* Add more margin to separate the image from the button */
+}
+
+.workGrid > .recipegenie > div,
+.workGrid > .localeyes > div {
+    text-align: left;
+}
+
+.workGrid > .recipegeniebutton,
+.workGrid > .localeyesbutton {
+    margin-top: 20px; /* Add margin to the top of the button to separate it from the text */
+}
+
+.h4 {
+    font-size: 36px;
+}
+
+
+/* Add this code to your style.css file */
+.recipegeniebutton,
+.localeyesbutton {
+    padding: 10px;
+    background-color: #80A0C8; /* Adjust the color as needed */
+    color: #FFFDF8; /* Adjust the text color as needed */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin: 20px;
+    margin: 0 auto; /* Center the buttons horizontally */
+    display: block; /* Ensure the buttons are block-level elements */
+}
+
+.recipegeniebutton:hover,
+.localeyesbutton:hover {
+    background-color: #A98D4F;
+}
+
+.footer {
+    background-color: #FFFDF8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer a {
+    font-size: 20px;
+    color: #36405F;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none; 
+    margin: 10px; 
+  }
+  
