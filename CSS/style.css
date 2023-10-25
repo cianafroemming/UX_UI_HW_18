@@ -56,8 +56,9 @@ body {
 }
 
 .creativethinking {
-    width: 250px;
+    width: 150px;
     height: auto;
+    justify-content: center;
 }
 
 .recipegenie {
